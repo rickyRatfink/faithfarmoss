@@ -20,7 +20,7 @@
 						<% } %>
 						<br><br>
 						<div class="text4">
-						<i>No System Updates for now</i>
+						<i>No System Updates for now I say</i>
 						</br>
 						</br>
 						
