@@ -1,0 +1,245 @@
+<%@ page import="java.util.ArrayList" %>
+<%@ page import="java.util.Map" %>
+<%@ page import="com.google.appengine.api.datastore.Entity" %>
+<%@ page import="org.faithfarm.dataobjects.Person" %>
+
+
+<jsp:include page="../includes/header.jsp"/>
+<jsp:include page="../includes/menu.jsp" flush="true"/>
+
+<%
+	ArrayList locations = (ArrayList)session.getAttribute("locations");
+	if (locations==null) locations = new ArrayList();	
+	
+
+	String required = "<font size='-2' color='red'>*</font>";
+		
+	Person person = (Person)session.getAttribute("person");
+    
+%>
+		<!----Main Content--->
+		<td valign="top">
+			<table width="820" border="0" cellpadding="0" cellspacing="0">
+				<tr><td><img src="<%=request.getContextPath()%>/images/header_top.png"></td></tr>
+				<tr>
+				<td class="content-body">
+						<div class="content">
+						<img src="<%=request.getContextPath()%>/images/titles/intake-application.jpg">
+						<br>
+						<jsp:include page="../includes/errors.jsp" flush="true"/>
+						<br><br>
+						
+						<!----Application Form ------->
+						
+						<form method="POST" action="<%=request.getContextPath()%>/intake">
+						<table width="70%" border=0 cellpadding=0 cellspacing=0>
+							
+							<tr>
+								<td >
+									<table width="100%" cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;">
+										   		
+												<tr>
+													<td width="110" class="instructions" >
+														Please review the intake information that has been entered.  Use the back button 
+														for navigatation to the appropriate page to update any information.  When all 
+														information is correct click the save button.<br><br>
+													</td>
+												</tr>
+												
+												<tr>
+													<td><img src="<%=request.getContextPath()%>/images/titles/personal-info.jpg"/></td>
+												</tr>
+												
+									</table>
+									
+									<table width="100%" cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;">
+									<tr>
+										<td width="50%" valign="top">
+													<table width="100%" cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;">
+										   			<tr>
+										   				<td align="center">
+										   				
+										   				<h2>
+										   				The intake application is complete.  To review or change any information use the back buttons
+										   				to navigate back through the pages.  Click Save to submit to intake application.
+										   				</h2>
+										   				
+										   				</td>
+													<!---
+													<tr>
+														<td class="reviewField" >firstname:</td><td class="reviewText"><%=person.getFirstName()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >middle initial:</td><td class="reviewText"><%=person.getMiddleInitial()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >lastname:</td><td class="reviewText" ><%=person.getLastName()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >suffix:</td><td class="reviewText" ><%=person.getSuffix()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >address line 1:</td><td class="reviewText" ><%=person.getAddress().getAddressLine1()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >address line 2:</td><td class="reviewText" ><%=person.getAddress().getAddressLine2()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >city:</td><td class="reviewText" ><%=person.getAddress().getCity()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >state:</td><td class="reviewText" ><%=person.getAddress().getState()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >zip:</td><td class="reviewText"><%=person.getAddress().getZipcode()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >contact phone#:</td><td class="reviewText" ><%=person.getAddress().getHomePhone()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >referred by:</td><td class="reviewText" ><%=person.getReferredBy()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >referral phone#:</td><td class="reviewText" ><%=person.getReferralPhone()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >emergency contact:</td><td class="reviewText"><%=person.getEmergencyContact()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >emergency phone#:</td><td class="reviewText"><%=person.getEmergencyPhone()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >emergency relation:</td><td class="reviewText"><%=person.getEmergencyRelationship()%></td>
+													</tr>
+
+													<tr>
+														<td class="reviewField" >date of birth:</td><td class="reviewText"><%=person.getDateOfBirth()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >age:</td><td class="reviewText"><%=person.getAge()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >marital status:</td><td class="reviewText"><%=person.getMaritalStatus()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >height:</td><td class="reviewText"><%=person.getHeight()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >weight:</td><td class="reviewText"><%=person.getWeight()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >ethnicity:</td><td class="reviewText"><%=person.getEthnicity()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >eye color:</td><td class="reviewText"><%=person.getEyeColor()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >hair color:</td><td class="reviewText"><%=person.getHairColor()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >where do you live:</td><td class="reviewText"><%=person.getHomeLocation()%></td>
+													</tr>
+													
+													<tr>
+														<td class="reviewField" >school level completed:</td><td class="reviewText"><%=person.getEducationLevel()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >did you graduate:</td><td class="reviewText"><%=person.getGraduateFlag()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >can you read English:</td><td class="reviewText"><%=person.getEnglishSpeakFlag()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >can you speak English:</td><td class="reviewText"><%=person.getEnglishReadFlag()%></td>
+													</tr>
+													</table>
+											</td>
+											<td width="50%" valign="top">
+													<table width="100%" cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;">
+										   		
+													<tr>
+														<td class="reviewField" >are you a US veteran:</td><td class="reviewText"><%=person.getPersonMisc().getVeteranStatus()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >branch of service:</td><td class="reviewText"><%=person.getPersonMisc().getBranchOfService()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >rank:</td><td class="reviewText" ><%=person.getPersonMisc().getRank()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >length of service:</td><td class="reviewText" ><%=person.getPersonMisc().getLengthOfService()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >government benefits:</td><td class="reviewText" ><%=person.getPersonMisc().getGovernmentBenefits()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >do you have a driver's license:</td><td class="reviewText" ><%=person.getPersonMisc().getDriversLicenseStatus()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >driver's license state:</td><td class="reviewText" ><%=person.getPersonMisc().getDriversLicenseState()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >driver's license number:</td><td class="reviewText" ><%=person.getPersonMisc().getDriversLicenseNumber()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >number of brothers:</td><td class="reviewText"><%=person.getPersonMisc().getBrothers()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >number of sisters:</td><td class="reviewText" ><%=person.getPersonMisc().getSisters()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >number of children:</td><td class="reviewText" ><%=person.getPersonMisc().getChildren()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >mother living:</td><td class="reviewText" ><%=person.getPersonMisc().getMotherLiving()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >father living:</td><td class="reviewText" ><%=person.getPersonMisc().getFatherLiving()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >religious background:</td><td class="reviewText"><%=person.getPersonMisc().getReligion()%></td>
+													</tr>
+													<tr>
+														<td class="reviewField" >religious experience:</td><td class="reviewText"><%=person.getPersonMisc().getReligiousExperience()%></td>
+													</tr>
+													--->
+													</table>
+												
+											</td>
+										</tr>
+																										
+									</table>
+									
+									
+								</td>
+							</tr>
+						
+							<tr>
+								<td  width="50%" height="60"  align="left">
+									<input type="submit" name="action" value="Back" class="buttonBack">
+								</td>
+								<td  width="50%" height="60"  align="right">
+									<input type="submit" name="action" value="Save" class="buttonSave">
+								</td>
+							</tr>
+							
+							</table>
+						
+						<input type="hidden" name="page" value="09"/>
+						</form>			
+						
+						<!----End Form----------->
+						</div>
+									
+				</td></tr>
+				<tr><td><img src="<%=request.getContextPath()%>/images/header_btm.png"></td></tr>
+			</table>
+		</td>
+	</tr>	
+	
+</div>
+</table>
+
+<jsp:include page="../includes/footer.jsp"/>
+
+

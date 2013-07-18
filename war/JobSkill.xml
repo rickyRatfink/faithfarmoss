@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JobSkill>
+	<property name="officeWork" display="Office Work" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="mechanic" display="mechanic" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="painter" display="painter" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="upholstery" display="upholstery" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="maintenance" display="maintenance" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="electrician" display="electrician" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="cook" display="cook" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="airConditioning" display="airConditioning" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="radioTvRepair" display="radioTvRepair" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="autoBodyRepair" display="autoBodyRepair" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="welder" display="welder" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="carpenter" display="carpenter" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="landscaping" display="landscaping" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="custodian" display="custodian" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="warehousing" display="warehousing" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="sales" display="sales" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="applianceRepair" display="appliance repair" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="truckDriver" display="truck driver" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="forkLiftOperator" display="forklift operator" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="computerRepair" display="computer repair" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="plumber" display="plumber" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="kitchen" display="kitchen" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="phoneRoom" display="phoneroom" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="clothesSorter" display="clothes sorter" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="computerProgramming" display="computer programming" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="otherSkill" display="other skill" type="java.lang.String" input="ddl" maxlength="" editable="Y"/>
+	<property name="employer1" display="employer1" type="java.lang.String" input="text" maxlength="25" editable="Y"/>
+	<property name="jobTitle1" display="jobTitle1" type="java.lang.String" input="text" maxlength="25" editable="Y"/>
+	<property name="beginDate1" display="beginDate1" type="java.lang.String" input="text" maxlength="10" editable="Y"/>
+	<property name="endDate1" display="endDate1" type="java.lang.String" input="text" maxlength="10" editable="Y"/>
+	<property name="employer2" display="employer2" type="java.lang.String" input="text" maxlength="25" editable="Y"/>
+	<property name="jobTitle2" display="jobTitle2" type="java.lang.String" input="text" maxlength="25" editable="Y"/>
+	<property name="beginDate2" display="beginDate2" type="java.lang.String" input="text" maxlength="10" editable="Y"/>
+	<property name="endDate2" display="endDate2" type="java.lang.String" input="text" maxlength="10" editable="Y"/>
+	<property name="employer3" display="employer3" type="java.lang.String" input="text" maxlength="25" editable="Y"/>
+	<property name="jobTitle3" display="jobTitle3" type="java.lang.String" input="text" maxlength="25" editable="Y"/>
+	<property name="beginDate3" display="beginDate3" type="java.lang.String" input="text" maxlength="10" editable="Y"/>
+	<property name="endDate3" display="endDate3" type="java.lang.String" input="text" maxlength="10" editable="Y"/>
+	<property name="employer4" display="employer4" type="java.lang.String" input="text" maxlength="25" editable="Y"/>
+	<property name="jobTitle4" display="jobTitle4" type="java.lang.String" input="text" maxlength="25" editable="Y"/>
+	<property name="beginDate4" display="beginDate4" type="java.lang.String" input="text" maxlength="10" editable="Y"/>
+	<property name="endDate4" display="endDate4" type="java.lang.String" input="text" maxlength="10" editable="Y"/>
+	<property name="contactName1" display="Contact Name #1" type="java.lang.String" input="text" maxlength="30" editable="Y"/>
+	<property name="contactName2" display="Contact Name #2" type="java.lang.String" input="text" maxlength="30" editable="Y"/>
+	<property name="contactName3" display="Contact Name #3" type="java.lang.String" input="text" maxlength="30" editable="Y"/>
+	<property name="contactName4" display="Contact Name #4" type="java.lang.String" input="text" maxlength="30" editable="Y"/>
+	<property name="contactNumber1" display="Contact #1" type="java.lang.String" input="text" maxlength="13" editable="Y"/>
+	<property name="contactNumber2" display="Contact #2" type="java.lang.String" input="text" maxlength="13" editable="Y"/>
+	<property name="contactNumber3" display="Contact #3" type="java.lang.String" input="text" maxlength="13" editable="Y"/>
+	<property name="contactNumber4" display="Contact #4" type="java.lang.String" input="text" maxlength="13" editable="Y"/>
+</JobSkill>

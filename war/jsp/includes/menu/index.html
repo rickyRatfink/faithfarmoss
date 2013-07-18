@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<!-- *********************************************************************************************
+
+How to Create CSS3 + jQuery Accordion Menu [Tutorial]
+"How to Create CSS3 + jQuery Accordion Menu" that was specially made for DesignModo by our friend Valeriu Timbuc. 
+
+Links:
+http://vtimbuc.net/
+https://twitter.com/vtimbuc
+http://designmodo.com/futurico
+http://vladimirkudinov.com
+http://rockablethemes.com
+
+********************************************************************************************* -->
+
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8" />
+
+	<title>jQuery Accordion Menu</title>
+
+	<link rel="stylesheet" href="css/accordionmenu.css" type="text/css" media="screen" />
+
+	<style type="text/css">body{background:url(img/bg.png) repeat;width:200px;margin:0 auto}.footer{margin-top:50px;text-align:center;color:#666;font:bold 14px Arial}.footer a{color:#999;text-decoration:none}#wrapper-191{width:191px;margin:0 auto;}</style>
+<meta name="robots" content="noindex,follow" />
+</head>
+
+<body>
+
+	<img src="img/title.png" alt="">
+
+	<div id="wrapper-191">
+
+		<ul class="accordion">
+			
+			<li id="one" class="files">
+
+				<a href="#one">Store Functions</a>
+
+				<ul class="sub-menu">
+					
+					<li><a href="#"><em>01</em>Person Management</a></li>
+					
+					<li><a href="#"><em>02</em>Inventory Management</a></li>
+
+					<li><a href="#"><em>03</em>Inventory Adjustments</a></li>
+
+					<li><a href="#"><em>04</em>Vendor Management</a></li>
+					
+					<li><a href="#"><em>05</em>Customer Sale</a></li>
+
+					<li><a href="#"><em>05</em>Donation/Delivery Dispatch</a></li>
+
+				</ul>
+
+			</li>
+			
+			<li id="two" class="mail">
+
+				<a href="#two">Intake</a>
+
+				<ul class="sub-menu">
+					
+					<li><a href="#"><em>01</em>Intake Application</a></li>
+					<li><a href="#"><em>02</em>Work Assignments</a></li>
+					<li><a href="#"><em>03</em>Print Application Packet</a></li>
+					<li><a href="#"><em>04</em>Print Card</a></li>
+					<li><a href="#"><em>05</em>Export Intake</a></li>
+					<li><a href="#"><em>06</em>Deny Admission</a></li>
+					
+				</ul>
+
+			</li>
+			
+			<li id="three" class="cloud">
+
+				<a href="#three">Student</a>
+
+				<ul class="sub-menu">
+					
+					<li><a href="#"><em>01</em>Student Profile</a></li>
+					
+					<li><a href="#"><em>02</em>Benevolence Distribution</a></li>
+
+					<li><a href="#"><em>03</em>Course Rotation</a></li>
+
+					<li><a href="#"><em>04</em>Course/Roster Management</li>
+					
+				</ul>
+
+			</li>
+			
+			<li id="four" class="sign">
+
+				<a href="#four">Sign Out</a>
+
+				<ul class="sub-menu">
+					
+					<li><a href="#"><em>01</em>Log Out</a></li>
+					
+					<li><a href="#"><em>02</em>Change Password</a></li>
+
+				</ul>
+
+			</li>
+		
+		</ul>
+		
+	</div>
+
+	<div class="footer"><p>By <a href="http://vtimbuc.net/">Valeriu Timbuc</a> for <a href="http://designmodo.com">DesignModo</a>.</p></div>
+	
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript">
+
+		$(document).ready(function() {
+
+			// Store variables
+			
+			var accordion_head = $('.accordion > li > a'),
+				accordion_body = $('.accordion li > .sub-menu');
+
+			// Open the first tab on load
+
+			accordion_head.first().addClass('active').next().slideDown('normal');
+
+			// Click function
+
+			accordion_head.on('click', function(event) {
+
+				// Disable header links
+				
+				event.preventDefault();
+
+				// Show and hide the tabs on click
+
+				if ($(this).attr('class') != 'active'){
+					accordion_body.slideUp('normal');
+					$(this).next().stop(true,true).slideToggle('normal');
+					accordion_head.removeClass('active');
+					$(this).addClass('active');
+				}
+
+			});
+
+		});
+
+	</script>
+
+</body>
+
+</html>

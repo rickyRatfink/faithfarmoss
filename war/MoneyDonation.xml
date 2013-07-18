@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MoneyDonation>
+			<property name="amount" display="donation amount" type="java.lang.String" input="text" maxlength="40" editable="Y" required="true" />
+			<property name="recurring" display="recurring" type="java.lang.String" input="ddl" source="ddlYesNo" editable="Y"  />
+			<property name="recurringMonth" display="recurring month" type="java.lang.String" input="ddl" source="ddlMonths" maxlength="" editable="Y" required="true"  />
+			<property name="recurringDay" display="recurring day" type="java.lang.String" input="ddl" source="ddlDays" maxlength="" editable="Y" required="true" />
+			<property name="paymentMethod" display="payment method" type="java.lang.String" input="ddl" source="ddlPaymentMethod" editable="Y"  />
+</MoneyDonation>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Dispatch>
+			<property name="majorIntersection" display="major intersection" type="java.lang.String" input="text" maxlength="40" editable="Y" required="true" />
+			<property name="subdivision" display="subdivision" type="java.lang.String" input="text" maxlength="25" editable="Y"  />
+			<property name="streetSuffix" display="street suffix" type="java.lang.String" input="ddl" source="ddlStreetSuffix" maxlength="" editable="Y" required="true"  />
+			<property name="structureType" display="structure type" type="java.lang.String" input="ddl" source="ddlStructureType" maxlength="" editable="Y" required="true" />
+			<property name="unitNumber" display="unit number" type="java.lang.String" input="text" maxlength="10" editable="Y"  />
+			<property name="buildingNumber" display="building number" type="java.lang.String" input="text" maxlength="5" editable="Y"  />
+			<property name="floorNumber" display="floor number" type="java.lang.String" input="ddl" source="ddlFloors" maxlength="" editable="Y" />
+			<property name="elevatorFlag" display="elevator availability" type="java.lang.String" input="ddl" source="ddlYesNo" maxlength="" editable="Y" required="true"/>
+			<property name="gatedCommunityFlag" display="gated community" type="java.lang.String" input="ddl" source="ddlYesNo" maxlength="" editable="Y" required="true"/>
+			<property name="gateCode" display="gate code" type="java.lang.String" input="text" maxlength="15" editable="Y" />
+			<property name="gateInstructions" display="gate instructions" type="java.lang.String" input="ddl" source="ddlGateInstructions" maxlength="" editable="Y" />
+			<property name="dispatchLocation" display="dispatch location" type="java.lang.String" input="ddl" source="ddlFarms" maxlength="" editable="Y" required="true" />
+			<property name="dispatchDate" display="dispatch date" type="java.lang.String" input="calendar" maxlength="10" editable="Y" required="true"/>
+			<property name="status" display="dispatch status" type="java.lang.String" input="ddl" maxlength="" editable="Y" required="true" source="ddlDispatchStatus"/>
+			<property name="truck" display="truck #" type="java.lang.String" input="ddl" source="ddlTruckList" maxlength="" editable="Y" />
+			<property name="callRequirements" display="call requirements" type="java.lang.String" input="ddl" source="ddlCallRequirements" maxlength="" editable="Y" required="true"/>
+			<property name="special" display="Is this a special?" type="java.lang.String" input="ddl" source="ddlYesNo" maxlength="" editable="Y" required="true"/>
+			<property name="itemLocation" display="item location" type="java.lang.String" input="ddl" source="ddlItemLocation" maxlength="" editable="Y" />
+			<property name="airConditioner" display="air conditioner" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="bedding" display="bedding" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="beddingBagsBoxes" display="bedding bags/boxes" type="java.lang.String" input="ddl" source="ddlBagsBoxes" maxlength="2" editable="Y" />
+			<property name="books" display="books" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="booksBagsBoxes" display="books bags/boxes" type="java.lang.String" input="ddl" source="ddlBagsBoxes" maxlength="2" editable="Y" />
+			<property name="clothing" display="clothing" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="clothingBagsBoxes" display="clothing bags/boxes" type="java.lang.String" source="ddlBagsBoxes" input="ddl" maxlength="2" editable="Y" />
+			<property name="computer" display="computer" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="desk" display="desk" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="chest" display="chest" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="armoire" display="armoire" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="dresser" display="dresser" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="mirror" display="mirror" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="nightstand" display="nightstand" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="headboard" display="headboard" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="footboard" display="footboard" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="rails" display="rails" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="lamp" display="lamp" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="lawnFurniture" display="lawn furntiure" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="mattressBoxSpring" display="mattress/box spring" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="mattressSize" display="mattress size" type="java.lang.String" input="text" maxlength="15" editable="Y" />
+			<property name="miscHouseholdItems" display="Misc. Household Items" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="miscBagsBoxes" display="misc bags/boxes" type="java.lang.String" source="ddlBagsBoxes" input="ddl" maxlength="2" editable="Y" />
+			<property name="refrigerator" display="refrigerator" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="stove" display="stove" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="recliner" display="recliner" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="sofa" display="sofa" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="loveseat" display="loveseat" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="wallUnit" display="wall unit" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="wallUnitPieces" display="# of Pieces (maximum 3 pieces)" type="java.lang.String" input="text" maxlength="1" editable="Y" />
+			<property name="table" display="table" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="chair" display="chair" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="television" display="television" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="televisionSize" display="television size" type="java.lang.String" input="text" maxlength="15" editable="Y" />
+			<property name="electronicEquipment" display="electronic equipment" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="washer" display="washer" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="dryer" display="dryer" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="exerciseEquipment" display="exercise equipment" type="java.lang.String" input="text" maxlength="2" editable="Y" />
+			<property name="notes" display="Special Notes" type="java.lang.String" input="textarea" maxlength="" editable="Y" />
+</Dispatch>

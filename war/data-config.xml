@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DataConfig>
+	<option name="data-layer" value="HRD"/>
+	<!-- These aren't used if data-layer doesn't equal mysql -->
+	<option name="mysql-host" value="127.0.0.1"/>
+	<option name="mysql-user" value="root"/>
+	<option name="mysql-pass" value="rimm3r"/>
+	<option name="mysql-db" value="ffm"/>
+ </DataConfig>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<User>
+    		<property name="email" display="Email Address" type="java.lang.String" input="text" maxlength="60" editable="Y" required="true"  />
+			<property name="role" display="User Role" type="java.lang.String" input="ddl" source="ddlSystemRoles" editable="Y" required="true" />
+			<property name="farm" display="Faith Farm Location" type="java.lang.String" input="ddl" source="ddlFarms" editable="Y" required="true" />
+</User>

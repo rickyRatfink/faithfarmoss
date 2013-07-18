@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PersonMisc>
+
+	<property name="motherLiving" display="mother living" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="fatherLiving" display="father living" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="brothers" display="# brothers" type="java.lang.String" input="text" maxlength="2" editable="Y" source="ddlYesNo"/>
+	<property name="sisters" display="# sisters" type="java.lang.String" input="text" maxlength="2" editable="Y" source=""/>
+	<property name="children" display="# children" type="java.lang.String" input="text" maxlength="2" editable="Y" source=""/>
+	<property name="veteranStatus" display="veteran" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="branchOfService" display="branch of service" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlBranchOfService"/>
+	<property name="rank" display="highest rank" type="java.lang.String" input="text" maxlength="15" editable="Y" source=""/>
+	<property name="lengthOfService" display="length of service" type="java.lang.String" input="text" maxlength="25" editable="Y" source=""/>
+	<property name="driversLicenseStatus" display="driver license" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="driversLicenseNumber" display="driver's license #" type="java.lang.String" input="text" maxlength="15" editable="Y" source="ddlYesNo"/>
+	<property name="driversLicenseState" display="driver license state" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlStates"/>
+	<property name="governmentBenefits" display="government Benefits" type="java.lang.String" input="text" maxlength="100" editable="Y" />
+	<property name="religion" display="religion" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlReligion"/>
+	<property name="religiousExperience" display="religious experiance" type="java.lang.String" input="textarea" maxlength="200" editable="Y" source=""/>
+	<property name="alcoholYearsUsed" display="alcohol years used" type="java.lang.String" input="text" maxlength="2" editable="Y" source=""/>
+	<property name="cocaineYearsUsed" display="cocaine Years used" type="java.lang.String" input="text" maxlength="2" editable="Y" source=""/>
+	<property name="marijuanaYearsUsed" display="marijuana years used" type="java.lang.String" input="text" maxlength="2" editable="Y" source=""/>
+	<property name="oxicodenYearsUsed" display="oxicoden years used" type="java.lang.String" input="text" maxlength="2" editable="Y" source=""/>
+	<property name="speedYearsUsed" display="speed years used" type="java.lang.String" input="text" maxlength="2" editable="Y" source=""/>
+	<property name="heroinYearsUsed" display="heroin years used" type="java.lang.String" input="text" maxlength="2" editable="Y" source=""/>
+	<property name="xanaxYearsUsed" display="xanax years used" type="java.lang.String" input="text" maxlength="2" editable="Y" source=""/>
+	<property name="otherYearsUsed" display="other years used" type="java.lang.String" input="text" maxlength="2" editable="Y" source=""/>
+	<property name="alcoholLastUsed" display="alcohol last used" type="java.lang.String" input="text" maxlength="10" editable="Y" source=""/>
+	<property name="cocaineLastUsed" display="cocaine last used" type="java.lang.String" input="text" maxlength="10" editable="Y" source=""/>
+	<property name="marijuanaLastUsed" display="marijuana last used" type="java.lang.String" input="text" maxlength="10" editable="Y" source=""/>
+	<property name="oxicodenLastUsed" display="oxicoden last used" type="java.lang.String" input="text" maxlength="10" editable="Y" source=""/>
+	<property name="speedLastUsed" display="speed last used" type="java.lang.String" input="text" maxlength="10" editable="Y" source=""/>
+	<property name="heroinLastUsed" display="heroin last used" type="java.lang.String" input="text" maxlength="10" editable="Y" source=""/>
+	<property name="xanaxLastUsed" display="xanax last used" type="java.lang.String" input="text" maxlength="10" editable="Y" source=""/>
+	<property name="otherLastUsed" display="other last used" type="java.lang.String" input="text" maxlength="10" editable="Y" source=""/>
+	<property name="otherDrug" display="other drug" type="java.lang.String" input="text" maxlength="10" editable="Y" source=""/>
+	<property name="sober3Years" display="3 year sobriety period" type="java.lang.String" input="text" maxlength="20" editable="Y" source=""/>
+	<property name="sober1Years" display="1 year sobriety period" type="java.lang.String" input="text" maxlength="20" editable="Y" source=""/>
+	<property name="usagePattern" display="usage pattern" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlUsagePattern"/>
+	<property name="quantityPerWeek" display="qty per week" type="java.lang.String" input="text" maxlength="30" editable="Y" source=""/>
+	<property name="quantity2Years" display="qty per week 2 years ago" type="java.lang.String" input="text" maxlength="30" editable="Y" source=""/>
+	<property name="usageLosses" display="losses due to use" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlLosses"/>
+	<property name="abusePhysicalEffects" display="physical effects" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlPhysicalEffects"/>
+	<property name="spouseAddicted" display="spouse addicted" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="familyAddicted" display="family addicted" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="attendAA" display="AA attendance" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="attendNA" display="NA attendance" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="yearsAttended" display="years attended" type="java.lang.String" input="text" maxlength="10" editable="Y" source="ddlYesNo"/>
+	<property name="previousFaithFarm" display="previous Faith Farm" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlFarms"/>
+	<property name="faithFarmYear" display="prev. farm year" type="java.lang.String" input="text" maxlength="4" editable="Y" source=""/>
+	<property name="currentHealth" display="current health" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlCurrentHealth"/>
+	<property name="currentMedicationsFlag" display="take medication" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="currentMedicationsDetails" display="medication details" type="java.lang.String" input="textarea" maxlength="200" editable="Y" source="ddlYesNo"/>
+	<property name="needMedicationFlag" display="need medication" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="medicationSuppyFlag" display="enough supply" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="refillDetails" display="refill details" type="java.lang.String" input="textarea" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="doctorsAppointment" display="doctor's appt." type="java.lang.String" input="text" maxlength="10" editable="Y" source=""/>
+	<property name="medicalQuestion1Flag" display="question 1" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="medicalQuestion2Flag" display="question 2" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="medicalQuestion3Flag" display="question 3" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="medicalQuestion4Flag" display="question 4" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="medicalQuestion5Flag" display="question 5" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="medicalQuestion1Details" display="#1 details" type="java.lang.String" input="text" maxlength="200" editable="Y" source="ddlYesNo"/>
+	<property name="medicalQuestion2Details" display="#2 details" type="java.lang.String" input="text" maxlength="200" editable="Y" source="ddlYesNo"/>
+	<property name="medicalQuestion3Details" display="#3 details" type="java.lang.String" input="text" maxlength="200" editable="Y" source="ddlYesNo"/>
+	<property name="medicalQuestion4Details" display="#4 details" type="java.lang.String" input="text" maxlength="200" editable="Y" source="ddlYesNo"/>
+	<property name="medicalQuestion5Details" display="#5 details" type="java.lang.String" input="text" maxlength="200" editable="Y" source="ddlYesNo"/>
+	<property name="glassesContactLenses" display="glass/contacts" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlEyewear"/>
+	<property name="industrialInjuryFlag" display="industrial industry" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="industrialInjuryDate" display="ind. injury date" type="java.lang.String" input="text" maxlength="10" editable="Y" source=""/>
+	<property name="industrialInjuryDetails" display="ind. injury details" type="java.lang.String" input="textarea" maxlength="30" editable="Y" source=""/>
+	<property name="industrialInjuryWhere" display="ind. injury location" type="java.lang.String" input="text" maxlength="" editable="Y" source=""/>
+	<property name="industrialInjuryEmployer" display="ind. injury employer" type="java.lang.String" input="text" maxlength="40" editable="Y" source=""/>
+	<property name="industrialInjuryClaimStatus" display="ind. claim status" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlClaimStatus"/>
+	<property name="disabilityFlag" display="disabled" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="disabilityDetails" display="disability details" type="java.lang.String" input="textbox" maxlength="" editable="Y" source=""/>
+	<property name="examinationDate" display="exam date" type="java.lang.String" input="text" maxlength="10" editable="Y" source=""/>
+	<property name="physician" display="physician" type="java.lang.String" input="text" maxlength="50" editable="Y" source=""/>
+	<property name="address" display="physician's address" type="java.lang.String" input="text" maxlength="60" editable="Y" source=""/>
+	<property name="medicalConditionDetails" display="medical condition" type="java.lang.String" input="textarea" maxlength="" editable="Y" source=""/>
+	<property name="legalQuestion1" display="legal Question#1" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="legalQuestion1Date" display="legal #1 date" type="java.lang.String" input="text" maxlength="" editable="Y" source=""/>
+	<property name="legalQuestion1Details" display="legal #1 details" type="java.lang.String" input="textarea" maxlength="" editable="Y" source=""/>
+	<property name="legalQuestion2" display="legal Question#2" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="legalQuestion2Date" display="legal #2 date" type="java.lang.String" input="text" maxlength="" editable="Y" source=""/>
+	<property name="legalQuestion2Details" display="legal #2 details" type="java.lang.String" input="textarea" maxlength="" editable="Y" source=""/>
+	<property name="legalQuestion3" display="legal Question#3" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="legalQuestion3Date" display="legal #3 date" type="java.lang.String" input="text" maxlength="" editable="Y" source=""/>
+	<property name="legalQuestion3Quantity" display="How many times" type="java.lang.String" input="text" maxlength="2" editable="Y" source=""/>
+	<property name="legalQuestion3Details" display="legal #3 details" type="java.lang.String" input="textarea" maxlength="" editable="Y" source=""/>
+	<property name="legalQuestion4" display="legal Question#4" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="legalQuestion4Date" display="legal #4 date" type="java.lang.String" input="text" maxlength="" editable="Y" source=""/>
+	<property name="legalQuestion4Details" display="legal #4 details" type="java.lang.String" input="textarea" maxlength="" editable="Y" source=""/>
+	<property name="legalQuestion5" display="legal Question#5" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="legalQuestion5Date" display="legal #5 date" type="java.lang.String" input="text" maxlength="" editable="Y" source=""/>
+	<property name="legalQuestion5Details" display="legal #5 details" type="java.lang.String" input="textarea" maxlength="" editable="Y" source=""/>
+	<property name="probationFlag" display="probation" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="probationCounty" display="probation county" type="java.lang.String" input="text" maxlength="" editable="Y" source=""/>
+	<property name="probationState" display="probation state" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlStates"/>
+	<property name="probationOfficer" display="probation officer" type="java.lang.String" input="text" maxlength="40" editable="Y" source="ddlYesNo"/>
+	<property name="probationOfficerPhone" display="probation phone" type="java.lang.String" input="text" maxlength="13" editable="Y" source=""/>
+	<property name="medicalOpt1" display="Arthritis or Rheumatism" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="medicalOpt2" display="Polio" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="medicalOpt3" display="Amputations" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="medicalOpt4" display="Dizziness or Fainting Spells" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="medicalOpt5" display="Back Surgery" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="medicalOpt6" display="Any Permanent Disabilities" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="medicalOpt7" display="Head Injury" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="medicalOpt8" display="Diabetes" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="medicalOpt9" display="Hepatitis" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="medicalOpt10" display="High Blood Pressure" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="medicalOpt11" display="Epilepsy" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="medicalOpt12" display="Cancer" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="medicalOpt13" display="Kidney or Bladder Trouble" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="medicalOpt14" display="Asthma" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="medicalOpt15" display="HIV" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="medicalOpt16" display="Phlebitis" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="medicalOpt17" display="Varicose Veins" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="medicalOpt18" display="Heart Problems" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="medicalOpt19" display="Knee Injury" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="medicalOpt20" display="Back Injury" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="medicalOpt21" display="Hernia/Rupture" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="herniaSide" display="hernia side" type="java.lang.String" input="text" maxlength="15" editable="Y" source=""/>
+	<property name="herniaOperationFlag" display="hernia operation" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="medicalOpt22" display="AIDS" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="medicalOpt23" display="Loss Of Hearing" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="medicalOpt24" display="Herpes" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="medicalOpt25" display="Loss of Sight" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+		
+</PersonMisc>

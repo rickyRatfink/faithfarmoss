@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Course>
+	<property name="title" display="Course Title" type="java.lang.String" input="text" maxlength="40" editable="Y" />
+	<property name="description" display="Course Description" type="java.lang.String" input="textarea" maxlength="" editable="Y" />
+	<property name="number" display="Course Number" type="java.lang.String" input="text" maxlength="10" editable="Y" />
+	<property name="instructor" display="Instructor" type="java.lang.String" input="ddl" source="ddlEmployees" maxlength="" editable="Y" />
+	<property name="assistantInstructor" display="SLS Instructor" type="java.lang.String" input="ddl" source="ddlEmployees" maxlength="" editable="Y" />
+	<property name="farmBase" display="Faith Farm Location" type="java.lang.String" input="ddl" source="ddlFarms" maxlength="" editable="Y" />
+	<property name="status" display="Course Status" type="java.lang.String" input="ddl" source="ddlActiveInactive" maxlength="" editable="Y" />
+	<property name="sequence" display="Course Sequence" type="java.lang.String" input="text" source="" maxlength="2" editable="Y" />
+</Course>

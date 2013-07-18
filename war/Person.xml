@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Person>
+	<property name="firstName" display="First Name" type="java.lang.String" input="text" maxlength="20" editable="Y" />
+	<property name="lastName" display="Last Name" type="java.lang.String" input="text" maxlength="30" editable="Y" />
+	<property name="middleInitial" display="Middle Initial" type="java.lang.String" input="text" maxlength="1" editable="Y" />
+	<property name="farmBase" display="Farm Base" type="java.lang.String" editable="N"/>
+	<property name="suffix" display="Suffix" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlNameSuffix" />
+	<property name="organization" display="Organization" type="java.lang.String" input="ddl" source="ddlOrg" editable="Y" />
+	<property name="dateOfBirth" display="Date of Birth" type="java.lang.String" input="text" maxlength="11" editable="Y" />
+	<property name="ssn" display="Social Security Number" type="java.lang.String" input="text" maxlength="9" editable="Y" />
+	<property name="age" display="Age" type="java.lang.String" input="ddl" source="ddlAge"  maxlength="2" editable="Y" />
+	<property name="height" display="Height" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlHeight"/>
+	<property name="weight" display="Weight" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlWeight"/>
+	<property name="ethnicity" display="Race/Ethnicity" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlEthnicity"/>
+	<property name="hairColor" display="Hair Color " type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlHaircolor" />
+	<property name="eyeColor" display="Eye Color" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlEyecolor" />
+	<property name="maritalStatus" display="Marital Status" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlMaritalStatus"/>
+	<property name="educationLevel" display="Education Level" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlEducation"/>
+	<property name="graduateFlag" display="Graduate Flag" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="englishSpeakFlag" display="English Speaking" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="englishReadFlag" display="English Reading" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlYesNo"/>
+	<property name="homeLocation" display="Home Location" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlHomeLocation"/>
+	<property name="personType" display="Person Type" type="java.lang.String" input="ddl" maxlength="" editable="N" source="ddlPersonType"/>
+	<property name="referredBy" display="Referred By" type="java.lang.String" input="text" maxlength="" editable="Y"/>
+	<property name="referralPhone" display="Referral Phone#" type="java.lang.String" input="text" maxlength="" editable="Y"/>
+	<property name="emergencyContact" display="Emergency Contact" type="java.lang.String" input="text" maxlength="" editable="Y"/>
+	<property name="emergencyPhone" display="Emergency Phone#" type="java.lang.String" input="text" maxlength="" editable="Y" />
+	<property name="emergencyRelationship" display="Emergency Relationship" type="java.lang.String" input="text" maxlength="" editable="Y"/>
+	<property name="entryDate" display="Entry Date" type="java.util.Date" input="calendar" maxlength="" editable="Y"/>
+	<property name="exitDate" display="Exit Date" type="java.util.Date" input="calendar" maxlength="" editable="Y"/>
+	<property name="personStatus" display="Current Status" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlPersonStatus"/>
+ 	<property name="personType" display="Person Type" type="java.lang.String" input="ddl" maxlength="" editable="Y" source="ddlPersonType"/>
+ 	<property name="creationDate" display="Creation Date" type="java.util.Date" input="text" maxlength="" editable="N"/>
+	<property name="createdBy" display="Created By" type="String" input="text" maxlength="" editable="N"/> 
+	<property name="currentCourse" display="Current Course" type="java.lang.String" input="text" maxlength="2" editable="Y" source=""/>
+	<property name="supervisor" display="Supervisor" type="java.lang.String" input="ddl" maxlength="50" editable="Y" source="ddlEmployees"/>
+	<property name="workAssignment" display="Work Assignment" type="java.lang.String" input="ddl" maxlength="50" editable="Y" source="ddlWorkAssignments"/>
+ 	<property name="bedNumber" display="Bed Assignment" type="java.lang.String" input="text" maxlength="6" editable="Y" />
+ 	<property name="lastPersonStatus" display="Last status" type="java.lang.String" input="ddl" maxlength="" editable="N"/>
+ 	<property name="lastStatusUpdated" display="Last Status Updated" type="java.util.Date" input="text" editable="N"/>
+ 	<property name="specialNotes" display="Special Notes" type="java.lang.String" input="textarea" maxlength="" editable="Y" source=""/>
+ </Person>
+

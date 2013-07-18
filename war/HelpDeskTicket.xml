@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<HelpDeskTicket>
+    		<property name="ticketDate" display="Ticket Date" type="java.lang.String" input="calendar" maxlength="10" editable="Y" required="true"/>
+			<property name="customerName" display="Customer Name" type="java.lang.String" input="text" maxlength="40" editable="Y" required="true" />
+			<property name="farmLocation" display="Faith Farm Location" type="java.lang.String" input="ddl" source="ddlFarms" editable="Y" required="true" />
+			<property name="systemLocation" display="Problem Location" type="java.lang.String" input="text" maxlength="60" editable="Y" required="true"  />
+			<property name="contactPhone" display="Contact Phone" type="java.lang.String" input="text" maxlength="13" editable="Y" required="true" />
+			<property name="ticketType" display="Ticket Type" type="java.lang.String" input="ddl" source="ddlTicketType" editable="Y" required="true" />
+			<property name="status" display="Ticket Status" type="java.lang.String" input="ddl" source="ddlTicketStatus" editable="Y" required="true" />
+			<property name="priority" display="Priority" type="java.lang.String" input="ddl" source="ddlTicketPriority" editable="Y" required="true" />
+			<property name="signatureRequired" display="Signature Required" type="java.lang.String" input="ddl" source="ddlYesNo" editable="Y" required="true" />
+			<property name="operatingSystem" display="Operating System" type="java.lang.String" input="ddl" source="ddlOS" editable="Y" required="true" />
+			<property name="errorCode" display="Error Code" type="java.lang.String" input="text" maxlength="30" editable="Y" />
+			<property name="errorMessage" display="Error Message" type="java.lang.String" input="text" maxlength="60" editable="Y" />
+			<property name="problemDescription" display="Request/Problem Description" type="java.lang.String" input="textarea" editable="Y" required="true"/>
+			<property name="assignedTo" display="Assigned To" type="java.lang.String" input="text" maxlength="40" editable="Y" require="true" />
+			<property name="problemResolution" display="Problem Resolution" type="java.lang.String" input="textarea" editable="Y" />
+			<property name="resolutionTimeRequired" display="Time Required" type="java.lang.String" input="text" maxlength="30" editable="Y" required="true" />
+			<property name="resolvedBy" display="Resolved By" type="java.lang.String" input="text" maxlength="40" editable="Y" />
+			<property name="resolvedDate" display="Date Resolved" type="java.lang.String" input="calendar" editable="N" required="false" />
+			
+</HelpDeskTicket>

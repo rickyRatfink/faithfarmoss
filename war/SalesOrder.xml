@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SalesOrder>
+			<property name="itemNumber0" display="Item #" type="java.lang.String" input="text" maxlength="10" editable="Y" required="false" />
+			<property name="quantity0" display="Quantity" type="java.lang.String" input="text" maxlength="2" editable="Y" required="false" />
+			<property name="location0" display="Location" type="java.lang.String" input="ddl" source="ddlInventoryLocation" maxlength="" editable="Y" required="true" />
+			<property name="itemName0" display="Item Name" type="java.lang.String" input="text" maxlength="30" editable="Y" required="false" />
+			<property name="price0" display="Price" type="java.lang.String" input="text" maxlength="10" editable="Y" required="false" />
+			<property name="vendor0" display="Vendor" type="java.lang.String" input="text" maxlength="30" editable="Y" required="false" />
+			<property name="itemNumber1" display="Item #" type="java.lang.String" input="text" maxlength="10" editable="Y" required="false" />
+			<property name="quantity1" display="Quantity" type="java.lang.String" input="text" maxlength="2" editable="Y" required="false" />
+			<property name="location1" display="Location" type="java.lang.String" input="ddl" source="ddlInventoryLocation" maxlength="" editable="Y" required="true" />
+			<property name="itemName1" display="Item Name" type="java.lang.String" input="text" maxlength="30" editable="Y" required="false" />
+			<property name="price1" display="Price" type="java.lang.String" input="text" maxlength="10" editable="Y" required="false" />
+			<property name="vendor1" display="Vendor" type="java.lang.String" input="text" maxlength="30" editable="Y" required="false" />
+			<property name="itemNumber2" display="Item #" type="java.lang.String" input="text" maxlength="10" editable="Y" required="false" />
+			<property name="quantity2" display="Quantity" type="java.lang.String" input="text" maxlength="2" editable="Y" required="false" />
+			<property name="location2" display="Location" type="java.lang.String" input="ddl" source="ddlInventoryLocation" maxlength="" editable="Y" required="true" />
+			<property name="itemName2" display="Item Name" type="java.lang.String" input="text" maxlength="30" editable="Y" required="false" />
+			<property name="price2" display="Price" type="java.lang.String" input="text" maxlength="10" editable="Y" required="false" />
+			<property name="vendor2" display="Vendor" type="java.lang.String" input="text" maxlength="30" editable="Y" required="false" />
+			<property name="itemNumber3" display="Item #" type="java.lang.String" input="text" maxlength="10" editable="Y" required="false" />
+			<property name="quantity3" display="Quantity" type="java.lang.String" input="text" maxlength="2" editable="Y" required="false" />
+			<property name="location3" display="Location" type="java.lang.String" input="ddl" source="ddlInventoryLocation" maxlength="" editable="Y" required="true" />
+			<property name="itemName3" display="Item Name" type="java.lang.String" input="text" maxlength="30" editable="Y" required="false" />
+			<property name="price3" display="Price" type="java.lang.String" input="text" maxlength="10" editable="Y" required="false" />
+			<property name="vendor3" display="Vendor" type="java.lang.String" input="text" maxlength="30" editable="Y" required="false" />
+			<property name="itemNumber4" display="Item #" type="java.lang.String" input="text" maxlength="10" editable="Y" required="false" />
+			<property name="quantity4" display="Quantity" type="java.lang.String" input="text" maxlength="2" editable="Y" required="false" />
+			<property name="location4" display="Location" type="java.lang.String" input="ddl" source="ddlInventoryLocation" maxlength="" editable="Y" required="true" />
+			<property name="itemName4" display="Item Name" type="java.lang.String" input="text" maxlength="30" editable="Y" required="false" />
+			<property name="price4" display="Price" type="java.lang.String" input="text" maxlength="10" editable="Y" required="false" />
+			<property name="vendor4" display="Vendor" type="java.lang.String" input="text" maxlength="30" editable="Y" required="false" />
+			<property name="itemNumber5" display="Item #" type="java.lang.String" input="text" maxlength="10" editable="Y" required="false" />
+			<property name="quantity5" display="Quantity" type="java.lang.String" input="text" maxlength="2" editable="Y" required="false" />
+			<property name="location5" display="Location" type="java.lang.String" input="ddl" source="ddlInventoryLocation" maxlength="" editable="Y" required="true" />
+			<property name="itemName5" display="Item Name" type="java.lang.String" input="text" maxlength="30" editable="Y" required="false" />
+			<property name="price5" display="Price" type="java.lang.String" input="text" maxlength="10" editable="Y" required="false" />
+			<property name="vendor5" display="Vendor" type="java.lang.String" input="text" maxlength="30" editable="Y" required="false" />
+			<property name="itemNumber6" display="Item #" type="java.lang.String" input="text" maxlength="10" editable="Y" required="false" />
+			<property name="quantity6" display="Quantity" type="java.lang.String" input="text" maxlength="2" editable="Y" required="false" />
+			<property name="location6" display="Location" type="java.lang.String" input="ddl" source="ddlInventoryLocation" maxlength="" editable="Y" required="true" />
+			<property name="itemName6" display="Item Name" type="java.lang.String" input="text" maxlength="30" editable="Y" required="false" />
+			<property name="price6" display="Price" type="java.lang.String" input="text" maxlength="10" editable="Y" required="false" />
+			<property name="vendor6" display="Vendor" type="java.lang.String" input="text" maxlength="30" editable="Y" required="false" />
+			<property name="itemNumber7" display="Item #" type="java.lang.String" input="text" maxlength="10" editable="Y" required="false" />
+			<property name="quantity7" display="Quantity" type="java.lang.String" input="text" maxlength="2" editable="Y" required="false" />
+			<property name="location7" display="Location" type="java.lang.String" input="ddl" source="ddlInventoryLocation" maxlength="" editable="Y" required="true" />
+			<property name="itemName7" display="Item Name" type="java.lang.String" input="text" maxlength="30" editable="Y" required="false" />
+			<property name="price7" display="Price" type="java.lang.String" input="text" maxlength="10" editable="Y" required="false" />
+			<property name="vendor7" display="Vendor" type="java.lang.String" input="text" maxlength="30" editable="Y" required="false" />
+			<property name="itemNumber8" display="Item #" type="java.lang.String" input="text" maxlength="10" editable="Y" required="false" />
+			<property name="quantity8" display="Quantity" type="java.lang.String" input="text" maxlength="2" editable="Y" required="false" />
+			<property name="location8" display="Location" type="java.lang.String" input="ddl" source="ddlInventoryLocation" maxlength="" editable="Y" required="true" />
+			<property name="itemName8" display="Item Name" type="java.lang.String" input="text" maxlength="30" editable="Y" required="false" />
+			<property name="price8" display="Price" type="java.lang.String" input="text" maxlength="10" editable="Y" required="false" />
+			<property name="vendor8" display="Vendor" type="java.lang.String" input="text" maxlength="30" editable="Y" required="false" />
+			<property name="itemNumber9" display="Item #" type="java.lang.String" input="text" maxlength="10" editable="Y" required="false" />
+			<property name="quantity9" display="Quantity" type="java.lang.String" input="text" maxlength="2" editable="Y" required="false" />
+			<property name="location9" display="Location" type="java.lang.String" input="ddl" source="ddlInventoryLocation" maxlength="" editable="Y" required="true" />
+			<property name="itemName9" display="Item Name" type="java.lang.String" input="text" maxlength="30" editable="Y" required="false" />
+			<property name="price9" display="Price" type="java.lang.String" input="text" maxlength="10" editable="Y" required="false" />
+			<property name="vendor9" display="Vendor" type="java.lang.String" input="text" maxlength="30" editable="Y" required="false" />
+			<property name="discount" display="Discount" type="java.lang.String" input="ddl" editable="Y" required="false" source="ddlDiscounts"/>
+			<property name="subtotal" display="Sub-Total" type="java.lang.String" input="text" maxlength="10" editable="N" required="false" />
+			<property name="tax" display="Tax" type="java.lang.String" input="text" maxlength="10" editable="N" required="false" />
+			<property name="total" display="Total" type="java.lang.String" input="text" maxlength="10" editable="N" required="false" />
+			<property name="salesOrderStatus" display="Status" type="java.lang.String" input="ddl" source="ddlSalesStatus" maxlength="" editable="N" required="true" />
+			<property name="delivery" display="" type="java.lang.String" input="text" maxlength="10" editable="N" required="false" />
+			<property name="farmSource" display="" type="java.lang.String" input="ddl" maxlength="10" editable="N" required="false" source="ddlHowDidYouHearAboutUs"/>
+			
+</SalesOrder>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Address>
+	<property name="addressLine1" display="Address Line1" type="java.lang.String" input="text" maxlength="80" editable="Y" required="true"/>
+	<property name="addressLine2" display="Address Line2" type="java.lang.String" input="text" maxlength="80" editable="Y" />
+	<property name="zipcode" display="Zipcode" type="java.lang.String" input="text" maxlength="10" editable="Y" required="true" />
+	<property name="city" display="City" type="java.lang.String" input="text" maxlength="20" editable="Y" required="true" />
+	<property name="state" display="State" type="java.lang.String" input="ddl" source="ddlStates" maxlength="" editable="Y" required="true" />
+	<property name="homePhone" display="Home Phone" type="java.lang.String" input="telephone" maxlength="13" editable="Y" required="true" />
+	<property name="workPhone" display="Work Phone" type="java.lang.String" input="telephone" maxlength="13" editable="Y" />
+	<property name="cellPhone" display="Cell Phone" type="java.lang.String" input="telephone" maxlength="13" editable="Y" />
+	<property name="email" display="Email" type="java.lang.String" input="text" maxlength="60" editable="Y" required="true"/>
+</Address>

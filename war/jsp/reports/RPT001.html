@@ -1,0 +1,62 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Faith Farm Ministries - Operational Support System</title>
+<link href="http://www.gstatic.com/codesite/ph/17444577587916266307/css/ph_core.css" rel="stylesheet" type="text/css" />
+ <link href="http://code.google.com/css/codesite.pack.04102009.css" rel="stylesheet" type="text/css" />
+  <script language="javascript" src='script/jquery-1.6.min.js'></script>
+  <script language="javascript" src='script/ajax.util.js'></script>
+
+  	<script language="javascript">
+	function printPage()
+	{
+	window.print();
+	}
+	
+</script>
+
+  </head>
+<body>
+</style>
+  <!-- content -->  
+  <div  id="gc-pagecontent" >
+  
+  <div align="center">
+  <img src="images/newlogo.png"  />
+  <br>
+  <h2>New Furniture Inventory Report</h2>  
+  <b>Run on:&nbsp;&nbsp;<i>Wed Mar 14 14:02:03 UTC 2012</i></b>
+  </br></br></br>
+ <!-- home page content -->
+ <!-- list container -->
+	   	<div class="results" style="border:0;" id="item-list-ctr">
+           <table width="80%" cellspacing="0" cellpadding="2" border="0" style="border-collapse:collapse;">
+             <thead>
+               <tr>
+               <th scope="col">Vendor</th>
+               <th scope="col">Item #</th>
+                 <th scope="col">Price</th>
+                 <th scope="col">Quantity</th>
+                 <th scope="col">Description</th>
+                 <th scope="col">Cost</th>
+                 <!---<th scope="col">Level</th>
+                 <th scope="col">Status</th>
+                 <th scope="col">Action</th> 
+                 --->                     
+               </tr>
+             </thead>
+             <tbody id="item-list-tbody"></tbody>
+           </table>
+	  	</div>
+	  	
+	  	</br></br>
+	  	<a href="javascript:print();" style="text-decoration:none;"><img src="images/Printer-icon.png" border=0 height="15" width="15"></a>
+</div>	  	
+<script type="text/javascript">
+ $(window).load(function () {
+   init();
+});
+</script>
+</body>
+</html>

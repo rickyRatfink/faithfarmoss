@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Item>
+			<property name="vendor" display="vendor" type="java.lang.String" input="ddl" source="vendors" maxlength="" editable="Y" required="true" />
+			<property name="location" display="item location" type="java.lang.String" input="ddl" source="locations" maxlength="" editable="Y" required="true" />
+			<property name="itemNumber" display="item number" type="java.lang.String" input="text" maxlength="15" editable="Y" required="true" />
+			<property name="itemName" display="item name" type="java.lang.String" input="text" maxlength="40" editable="Y" required="true" />
+			<property name="itemType" display="item type" type="java.lang.String" input="ddl" source="ddlItemTypes" maxlength="" editable="Y" required="true" />
+			<property name="description" display="description" type="java.lang.String" input="text" maxlength="80" editable="Y" required="false" />
+			<property name="price" display="price" type="java.lang.String" input="text" maxlength="10" editable="Y" required="false" default="0.00" onkeypress="digitsonly"/>
+			<property name="cost" display="cost" type="java.lang.String" input="text" maxlength="10" editable="Y" required="false" default="0.00" onkeypress="digitsonly"/>
+			<property name="transactionType" display="transaction type" type="java.lang.String" input="ddl" source="transactions" maxlength="" editable="Y" required="true" />
+			<property name="qtyWarehouse" display="warehouse quantity" type="java.lang.String" input="text" maxlength="3" editable="Y" required="false" default="0" onkeypress="digitsonly" />
+			<property name="qtyFloor" display="floor quantity" type="java.lang.String" input="text" maxlength="3" editable="Y" required="false" default="0" onkeypress="digitsonly"/>
+			<property name="qtyTagged" display="tagged quantity" type="java.lang.String" input="text" maxlength="3" editable="Y" required="false" default="0" onkeypress="digitsonly"/>
+			<property name="farmLocation" display="farm location" type="java.lang.String" input="ddl" source="ddlFarms" maxlength="" editable="Y" required="true" />
+			<property name="status" display="status" type="java.lang.String" input="ddl" maxlength="" source="ddlItemStatus" editable="Y" required="true" />
+			<property name="minLevel" display="minimum level" type="java.lang.String" input="text" maxlength="10" editable="Y" required="false" />
+			<property name="notes" display="special notes" type="java.lang.String" input="text" maxlength="100" editable="Y" required="false" />
+</Item>

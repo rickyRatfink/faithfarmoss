@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SalesDispatch>
+			<property name="majorIntersection" display="major intersection" type="java.lang.String" input="text" maxlength="40" editable="Y" required="true" />
+			<property name="subdivision" display="subdivision" type="java.lang.String" input="text" maxlength="25" editable="Y"  />
+			<property name="streetSuffix" display="street suffix" type="java.lang.String" input="ddl" source="ddlStreetSuffix" maxlength="" editable="Y" required="true"  />
+			<property name="structureType" display="structure type" type="java.lang.String" input="ddl" source="ddlStructureType" maxlength="" editable="Y" required="true" />
+			<property name="unitNumber" display="unit number" type="java.lang.String" input="text" maxlength="10" editable="Y"  />
+			<property name="buildingNumber" display="building number" type="java.lang.String" input="text" maxlength="5" editable="Y"  />
+			<property name="floorNumber" display="floor number" type="java.lang.String" input="ddl" source="ddlFloors" maxlength="" editable="Y" />
+			<property name="elevatorFlag" display="elevator availability" type="java.lang.String" input="ddl" source="ddlYesNo" maxlength="" editable="Y" required="true"/>
+			<property name="gatedCommunityFlag" display="gated community" type="java.lang.String" input="ddl" source="ddlYesNo" maxlength="" editable="Y" required="true"/>
+			<property name="gateInstructions" display="gate instructions" type="java.lang.String" input="ddl" source="ddlGateInstructions" maxlength="" editable="Y" />
+			<property name="gateCode" display="gate code" type="java.lang.String" input="text" maxlength="15" editable="Y" />
+			<property name="deliveryLocation" display="dispatch location" type="java.lang.String" input="ddl" source="ddlFarms" maxlength="" editable="Y" required="true" />
+			<property name="deliveryDate" display="dispatch date" type="java.lang.String" input="calendar" maxlength="10" editable="Y" required="true"/>
+			<property name="salesDispatchStatus" display="dispatch status" type="java.lang.String" input="ddl" maxlength="" editable="Y" required="true" source="ddlDispatchStatus"/>
+			<property name="notes" display="Special Notes" type="java.lang.String" input="textarea" maxlength="" editable="Y" />
+</SalesDispatch>
