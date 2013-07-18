@@ -257,18 +257,16 @@ import com.google.appengine.api.blobstore.BlobInfo;
 /*     */ 
 /* 310 */         if (("Active".equals((String)Person.getProperty("personStatus"))) && ("Resident".equals((String)Person.getProperty("personType")))) {
 /* 311 */           String body = (String)Person.getProperty("firstName") + " " + (String)Person.getProperty("lastName") + " has been added as a new resident to the system.";
-/* 312 */           Mailer.sendNewStudentMail("ricky.raymond.ratliff@gmail.com", "New Resident Added", body);
-/* 313 */           Mailer.sendNewStudentMail("rmogged@faithfarm.org", "New Resident Added", body);
-/* 314 */           Mailer.sendNewStudentMail("rrosendo@faithfarm.org", "New Resident Added", body);
-/* 315 */           Mailer.sendNewStudentMail("gsteffe@faithfarm.org", "New Resident Added", body);
+/* 312 */           Mailer.sendNewStudentMail("rrosendo@faithfarm.org", "New Resident Added", body);
+/* 315 */           Mailer.sendNewStudentMail("hlidwell@faithfarm.org", "New Resident Added", body);
+					Mailer.sendNewStudentMail("dlidwell@faithfarm.org", "New Resident Added", body);
 /*     */         }
 /*     */ 
 /* 318 */         if (("Pending".equals((String)Person.getProperty("personStatus"))) && ("Intake".equals((String)Person.getProperty("personType")))) {
 /* 319 */           String body = (String)Person.getProperty("firstName") + " " + (String)Person.getProperty("lastName") + " has been added as a new intake to the system.";
-/* 320 */           Mailer.sendNewStudentMail("ricky.raymond.ratliff@gmail.com", "New Intake Added", body);
-/* 321 */           Mailer.sendNewStudentMail("rmogged@faithfarm.org", "New Intake Added", body);
-/* 322 */           Mailer.sendNewStudentMail("rrosendo@faithfarm.org", "New Intake Added", body);
-/* 323 */           Mailer.sendNewStudentMail("gsteffe@faithfarm.org", "New Intake Added", body);
+/* 320 */           Mailer.sendNewStudentMail("rrosendo@faithfarm.org", "New Intake Added", body);
+/* 323 */           Mailer.sendNewStudentMail("hlidwell@faithfarm.org", "New Resident Added", body);
+					Mailer.sendNewStudentMail("dlidwell@faithfarm.org", "New Resident Added", body);
 /*     */         }
 /*     */ 
 /* 327 */         url = "/jsp/student/success.jsp";
@@ -358,11 +356,10 @@ import com.google.appengine.api.blobstore.BlobInfo;
 /*     */ 
 /* 411 */         if (("Active".equals((String)Person.getProperty("personStatus"))) && ("Resident".equals((String)Person.getProperty("personType")))) {
 /* 412 */           String body = (String)Person.getProperty("firstName") + " " + (String)Person.getProperty("lastName") + " has been added as a new resident to the system.";
-/* 413 */           Mailer.sendNewStudentMail("ricky.raymond.ratliff@gmail.com", "New Resident Added", body);
-/* 414 */           Mailer.sendNewStudentMail("rmogged@faithfarm.org", "New Resident Added", body);
-/* 415 */           Mailer.sendNewStudentMail("rrosendo@faithfarm.org", "New Resident Added", body);
-/* 416 */           Mailer.sendNewStudentMail("gsteffe@faithfarm.org", "New Resident Added", body);
-/*     */         }
+/* 413 */           Mailer.sendNewStudentMail("rrosendo@faithfarm.org", "New Resident Added", body);
+/* 416 */           Mailer.sendNewStudentMail("hlidwell@faithfarm.org", "New Resident Added", body);
+					Mailer.sendNewStudentMail("dlidwell@faithfarm.org", "New Resident Added", body);
+}
 /*     */ 
 /* 420 */         url = "/student?action=Filter";
 /*     */       }
